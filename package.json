@@ -1,0 +1,19 @@
+{
+  "name": "pull-flow",
+  "description": "parallel/serial flow for pull-streams",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dominictarr/pull-flow",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/pull-flow.git"
+  },
+  "dependencies": {
+    "pull-stream": "~2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
+  "license": "MIT"
+}
